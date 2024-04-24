@@ -1,0 +1,33 @@
+{
+  "name": "study-music",
+  "version": "1.0.0",
+  "description": "a cli tool to play study music",
+  "bin": {
+    "suply": "./bin/index.js"
+  },
+  "main": "bin/index.js",
+  "scripts": {
+    "run": "node bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/siddarthpai/suply.git"
+  },
+  "keywords": [
+    "cli",
+    "study",
+    "music",
+    "lofi"
+  ],
+  "author": "Siddarth Pai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddarthpai/suply/issues"
+  },
+  "homepage": "https://github.com/siddarthpai/suply#readme",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "figlet": "^1.7.0"
+  }
+}
